@@ -18,3 +18,15 @@ Data Quality Disclaimer: The processing of this dataset is strictly focused on s
 
 For more information and details, read the document Brazilian Unified Rainfall Dataset.docx (https://github.com/LARHENA/UNIPLU-BR/blob/main/Brazilian%20Unified%20Rainfall%20Dataset.docx)
 
+
+### Resumo das Fontes de Dados
+
+| Fonte | Média de Anos (Potencial) | Quantidade | Período (Início - Fim) |
+| :--- | :---: | :---: | :---: |
+| CEMADEN | 7,99 | 5.061 | 2014 - 2025 |
+| Hidroweb | 32,38 | 12.087 | 1885 - 2025 |
+| ICEA | 33,19 | 183 | 1951 - 2025 |
+| INMET daily | 45,03 | 627 | 1889 - 2025 |
+| INMET sub-daily | 15,87 | 629 | 2000 - 2025 |
+| Telemetria | 6,63 | 2.819 | 2014 - 2025 |
+| **Total** | **—** | **21.406** | **—** |
