@@ -61,3 +61,36 @@ This dataframe functions as the 'identity document' for the rain gauge stations.
 | **responsible** | The agency responsible for operations (ANA or SGB-CPRM) |
 | **utc** | Local time zone relative to the Greenwich Meridian (-3 for Brasília Time) |
 
+*Time Series (table_data)*
+Whilst table_info defines the location and identity of the station, table_data records the rainfall measurements. It contains the following columns:
+
+| COLUMN	| DESCRIPTION | 
+| :--- | :---: | 
+| **gauge_code**	| Unique station identifier (ID). This serves as the link to table_info | 
+| **datetime**	| The date and time of the reading | 
+| **rain_mm**	| The volume of precipitation recorded during that interval, measured in millimeters (mm) |
+
+*Script Examples*
+Examples of scripts for accessing and filtering data, as well as generating plots, can be found at the following link: https://github.com/LARHENA/UNIPLU-BR/blob/main/Scripts%20UNIPLU-BR.ipynb
+
+
+**How to Cite**
+
+Lemos, F. C., Freitas, E. S., Coelho, V. H. R., Reis Júnior, D. S., Patriota, E. G., Meira, M. A., Vidal-Barbosa, J. L., Claudino, C. M. A., Silva, G. S., Nascimento, D. C., Ramos Filho, G. M., Cunha, A. P. M. A., Alves, L. G. S., Zeri, L. M. M., Ribeiro Neto, G. G., Bertrand, G. F., Tomasella, J., Souza, S. A., Araújo, A. A., Rampinelle, C. G., & Almeida, C. N. (2026). Unified Brazilian Rainfall Dataset (UNIPLU-BR): A Standardized National Database of Point Precipitation from Major Brazilian Monitoring Networks [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18883358
+
+**Main papers published by the group**
+
+Das Neves Almeida, C., Francis Bertrand, G., Carvalho Lemos, F., da Silva Freitas, E., Lins Silva, A., Vidal Barbosa, J. L., ... & Coelho, V. H. R. (2025). The design of the Brazilian Sub-Daily Rainfall dataset (BR-SDR): two decades of high-time-resolution data in Brazil. Hydrological Sciences Journal, 70(11), 1850-1862.
+
+Vidal-Barbosa, J. L., Lemos, F. C., da Silva Freitas, E., Coelho, V. H. R., da Silva, G. N. S., Patriota, E. G., ... & das Neves Almeida, C. (2025). BRain-D: A quality-controlled methodology for constructing the BRazilian Daily rainfall gridded data. Atmospheric Research, 108552.
+
+Freitas, E. D. S., Coelho, V. H. R., Bertrand, G. F., Lemos, F. C., & Almeida, C. D. N. (2024). IMERG BraMaL: An improved gridded monthly rainfall product for Brazil based on satellite‐based IMERG estimates and machine learning techniques. International Journal of Climatology, 44(11), 3976-3997.
+
+Lemos, F. C., Coelho, V. H. R., Freitas, E. D. S., Tomasella, J., Bertrand, G. F., Meira, M. A., ... & Almeida, C. D. N. (2023). Spatiotemporal distribution of precipitation and its characteristics under tropical atmospheric systems of Brazil: Insights from a large sub‐hourly database. Hydrological Processes, 37(11), e15017.
+
+Ramos Filho, G. M., Coelho, V. H. R., da Silva Freitas, E., Xuan, Y., Brocca, L., & das Neves Almeida, C. (2022). Regional-scale evaluation of 14 satellite-based precipitation products in characterising extreme events and delineating rainfall thresholds for flood hazards. Atmospheric Research, 276, 106259.
+
+Meira, M. A., Freitas, E. S., Coelho, V. H. R., Tomasella, J., Fowler, H. J., Ramos Filho, G. M., ... & Almeida, C. D. N. (2022). Quality control procedures for sub-hourly rainfall data: An investigation in different spatio-temporal scales in Brazil. Journal of Hydrology, 613, 128358.
+Freitas, E. D. S., Coelho, V. H. R., Xuan, Y., de CD Melo, D., Gadelha, A. N., Santos, E. A., ... & Almeida, C. D. N. (2020). The performance of the IMERG satellite-based product in identifying sub-daily rainfall events and their properties. Journal of Hydrology, 589, 125128.
+
+
