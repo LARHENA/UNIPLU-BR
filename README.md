@@ -19,7 +19,7 @@ Data Quality Disclaimer: The processing of this dataset is strictly focused on s
 Data Quality Disclaimer: The processing of this dataset is strictly focused on structural standardization. No qualitative assessment, physical consistency checks, or outlier filtering were performed. The rainfall values remain as originally reported by the agencies, now organized into a unified, analysis-ready structure.
 
 
-Impressive numbers:
+**Impressive numbers:**
 The dataset covers the period from 1885 to 2025, highlighted by the presence of stations with historical series exceeding a century. With broad national coverage, the database consolidates approximately 2.2 billion precipitation records from over 21,000 stations. This information features varied temporal resolutions, ranging from 10-minute intervals to 24-hour totals. 
 The distribution of these records among the main Brazilian monitoring networks is detailed below.
 
@@ -40,3 +40,23 @@ The distribution of these records among the main Brazilian monitoring networks i
   <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem1.png?raw=true" alt="Spatial distribution of the rainfall gauge stations in Brazil across different data sources" width="650">
   <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem2.png?raw=true" alt="Temporal evolution of the number of available rainfall stations in Brazil from 1855 to 2025: (Top) stations with daily resolution; (Bottom) stations with sub-daily resolution." width="650">
 </p>
+
+**Accessing the Data**
+The data is stored in compressed ZIP files, which function as optimized containers. Each ZIP file internally contains two files in Parquet format: table_info.parquet (station metadata) and table_data.parquet (rainfall time series).
+The primary advantage of this structure is that, using Python or R, you can read the data directly from memory. This eliminates the need to manually decompress files to the disk, saving storage space and accelerating processing within automation workflows.
+Within these files, the gauge_code (station code) serves as the primary key that links the registration information to the measurement data.
+
+**Metadata** 
+*Rainfall gauge information (table_info)*
+This dataframe functions as the 'identity document' for the rain gauge stations. It contains the static characteristics of each monitoring point:
+
+Coluna,Descrição,Observações
+gauge_code,Identificador único da estação (ID),Chave primária para vinculação com a tabela de séries temporais (table_data).
+city / state,Localização administrativa,"Município e Unidade da Federação (ex: João Pessoa, PB)."
+lat / long,Coordenadas geográficas,Formato de graus decimais (WGS84).
+elevation,Altitude da estação,Valor em metros acima do nível médio do mar (m).
+time_step,Resolução temporal,Intervalo entre leituras (ex: 1440 minutos para dados diários).
+network,Rede/Fonte original,"Origem do dado (ex: Hidroweb, INMET, CEMADEN)."
+responsible,Agência responsável,"Órgão que opera a estação (ex: ANA, SGB-CPRM, INMET)."
+utc,Fuso horário,Diferença em relação ao Meridiano de Greenwich (GMT-3 para horário de Brasília).
+
