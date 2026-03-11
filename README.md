@@ -37,6 +37,6 @@ The distribution of these records among the main Brazilian monitoring networks i
 | **Total** | **—** | **21.406** | **—** |
 
 <p align="left">
-  <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem1.png?raw=true" alt="Spatial distribution of the rainfall gauge stations in Brazil across different data sources" width="1000">
-  <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem2.png?raw=true" alt="Temporal evolution of the number of available rainfall stations in Brazil from 1855 to 2025: (Top) stations with daily resolution; (Bottom) stations with sub-daily resolution." width="1000">
+  <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem1.png?raw=true" alt="Spatial distribution of the rainfall gauge stations in Brazil across different data sources" width="650">
+  <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem2.png?raw=true" alt="Temporal evolution of the number of available rainfall stations in Brazil from 1855 to 2025: (Top) stations with daily resolution; (Bottom) stations with sub-daily resolution." width="650">
 </p>
