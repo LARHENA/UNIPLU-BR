@@ -12,14 +12,10 @@ This dataset is the first unified and standardized national database of point pr
 
 The primary contribution of this work is overcoming the high fragmentation of rainfall data in Brazil through a rigorous curation process:
 
-•	Structural and Nominal Standardization: Harmonization of column names, attributes, and storage formats, addressing historical changes in data protocols and formats within the same agency.
+<p>•	Structural and Nominal Standardization: Harmonization of column names, attributes, and storage formats, addressing historical changes in data protocols and formats within the same agency.
+<p>•	Time Zone Adjustment: Standardization of timestamps based on the station's geographical location (UTC offset).
+<p>•	Temporal Resolution: Records ranging from 10-minute intervals to 1-day resolution.
 
-•	Time Zone Adjustment: Standardization of timestamps based on the station's geographical location (UTC offset).
-
-•	Temporal Resolution: Records ranging from 10-minute intervals to 1-day resolution.
-
-
-Data Quality Disclaimer: The processing of this dataset is strictly focused on structural standardization. No qualitative assessment, physical consistency checks, or outlier filtering were performed. The rainfall values remain as originally reported by the agencies, now organized into a unified, analysis-ready structure.
 
 Data Quality Disclaimer: The processing of this dataset is strictly focused on structural standardization. No qualitative assessment, physical consistency checks, or outlier filtering were performed. The rainfall values remain as originally reported by the agencies, now organized into a unified, analysis-ready structure.
 
