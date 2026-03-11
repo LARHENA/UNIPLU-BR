@@ -25,10 +25,7 @@ The primary contribution of this work is overcoming the high fragmentation of ra
 The dataset covers the period from 1885 to 2025, highlighted by the presence of stations with historical series exceeding a century. With broad national coverage, the database consolidates approximately 2.2 billion precipitation records from over 21,000 stations. This information features varied temporal resolutions, ranging from 10-minute intervals to 24-hour totals. 
 The distribution of these records among the main Brazilian monitoring networks is detailed below.
 
-
-#### Resumo das Fontes de Dados
-
-| Fonte | Média de Anos (Potencial) | Quantidade | Período (Início - Fim) |
+| Source | Potential average number of years | Quantity | Initial and Final Year |
 | :--- | :---: | :---: | :---: |
 | CEMADEN | 7,99 | 5.061 | 2014 - 2025 |
 | Hidroweb | 32,38 | 12.087 | 1885 - 2025 |
@@ -94,17 +91,18 @@ Lemos, F. C., Freitas, E. S., Coelho, V. H. R., Reis Júnior, D. S., Patriota, E
 
 **Main papers published by the group**
 
-Das Neves Almeida, C., Francis Bertrand, G., Carvalho Lemos, F., da Silva Freitas, E., Lins Silva, A., Vidal Barbosa, J. L., ... & Coelho, V. H. R. (2025). The design of the Brazilian Sub-Daily Rainfall dataset (BR-SDR): two decades of high-time-resolution data in Brazil. Hydrological Sciences Journal, 70(11), 1850-1862.
+Das Neves Almeida, C., Francis Bertrand, G., Carvalho Lemos, F., da Silva Freitas, E., Lins Silva, A., Vidal Barbosa, J. L., ... & Coelho, V. H. R. (2025). The design of the Brazilian Sub-Daily Rainfall dataset (BR-SDR): two decades of high-time-resolution data in Brazil. Hydrological Sciences Journal, 70(11), 1850-1862. https://doi.org/10.1080/02626667.2025.2506193
 
-Vidal-Barbosa, J. L., Lemos, F. C., da Silva Freitas, E., Coelho, V. H. R., da Silva, G. N. S., Patriota, E. G., ... & das Neves Almeida, C. (2025). BRain-D: A quality-controlled methodology for constructing the BRazilian Daily rainfall gridded data. Atmospheric Research, 108552.
+Vidal-Barbosa, J. L., Lemos, F. C., da Silva Freitas, E., Coelho, V. H. R., da Silva, G. N. S., Patriota, E. G., ... & das Neves Almeida, C. (2025). BRain-D: A quality-controlled methodology for constructing the BRazilian Daily rainfall gridded data. Atmospheric Research, 108552. https://doi.org/10.1016/j.atmosres.2025.108552
 
-Freitas, E. D. S., Coelho, V. H. R., Bertrand, G. F., Lemos, F. C., & Almeida, C. D. N. (2024). IMERG BraMaL: An improved gridded monthly rainfall product for Brazil based on satellite‐based IMERG estimates and machine learning techniques. International Journal of Climatology, 44(11), 3976-3997.
+Freitas, E. D. S., Coelho, V. H. R., Bertrand, G. F., Lemos, F. C., & Almeida, C. D. N. (2024). IMERG BraMaL: An improved gridded monthly rainfall product for Brazil based on satellite‐based IMERG estimates and machine learning techniques. International Journal of Climatology, 44(11), 3976-3997. https://doi.org/10.1002/joc.8562
 
-Lemos, F. C., Coelho, V. H. R., Freitas, E. D. S., Tomasella, J., Bertrand, G. F., Meira, M. A., ... & Almeida, C. D. N. (2023). Spatiotemporal distribution of precipitation and its characteristics under tropical atmospheric systems of Brazil: Insights from a large sub‐hourly database. Hydrological Processes, 37(11), e15017.
+Lemos, F. C., Coelho, V. H. R., Freitas, E. D. S., Tomasella, J., Bertrand, G. F., Meira, M. A., ... & Almeida, C. D. N. (2023). Spatiotemporal distribution of precipitation and its characteristics under tropical atmospheric systems of Brazil: Insights from a large sub‐hourly database. Hydrological Processes, 37(11), e15017. https://doi.org/10.1002/hyp.15017
 
-Ramos Filho, G. M., Coelho, V. H. R., da Silva Freitas, E., Xuan, Y., Brocca, L., & das Neves Almeida, C. (2022). Regional-scale evaluation of 14 satellite-based precipitation products in characterising extreme events and delineating rainfall thresholds for flood hazards. Atmospheric Research, 276, 106259.
+Ramos Filho, G. M., Coelho, V. H. R., da Silva Freitas, E., Xuan, Y., Brocca, L., & das Neves Almeida, C. (2022). Regional-scale evaluation of 14 satellite-based precipitation products in characterising extreme events and delineating rainfall thresholds for flood hazards. Atmospheric Research, 276, 106259. https://doi.org/10.1016/j.atmosres.2022.106259
 
-Meira, M. A., Freitas, E. S., Coelho, V. H. R., Tomasella, J., Fowler, H. J., Ramos Filho, G. M., ... & Almeida, C. D. N. (2022). Quality control procedures for sub-hourly rainfall data: An investigation in different spatio-temporal scales in Brazil. Journal of Hydrology, 613, 128358.
-Freitas, E. D. S., Coelho, V. H. R., Xuan, Y., de CD Melo, D., Gadelha, A. N., Santos, E. A., ... & Almeida, C. D. N. (2020). The performance of the IMERG satellite-based product in identifying sub-daily rainfall events and their properties. Journal of Hydrology, 589, 125128.
+Meira, M. A., Freitas, E. S., Coelho, V. H. R., Tomasella, J., Fowler, H. J., Ramos Filho, G. M., ... & Almeida, C. D. N. (2022). Quality control procedures for sub-hourly rainfall data: An investigation in different spatio-temporal scales in Brazil. Journal of Hydrology, 613, 128358. https://doi.org/10.1016/j.jhydrol.2022.128358
+
+Freitas, E. D. S., Coelho, V. H. R., Xuan, Y., de CD Melo, D., Gadelha, A. N., Santos, E. A., ... & Almeida, C. D. N. (2020). The performance of the IMERG satellite-based product in identifying sub-daily rainfall events and their properties. Journal of Hydrology, 589, 125128. https://doi.org/10.1016/j.jhydrol.2020.125128
 
 
