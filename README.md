@@ -37,5 +37,5 @@ The distribution of these records among the main Brazilian monitoring networks i
 | **Total** | **—** | **21.406** | **—** |
 
 <p align="left">
-  <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem1.png?raw=true" alt="Descrição da Imagem" width="600">
+  <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem1.png?raw=true" alt="Descrição da Imagem" width="1000">
 </p>
