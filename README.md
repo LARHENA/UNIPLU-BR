@@ -36,6 +36,6 @@ The distribution of these records among the main Brazilian monitoring networks i
 | Telemetria | 6,63 | 2.819 | 2014 - 2025 |
 | **Total** | **—** | **21.406** | **—** |
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem1.png?raw=true" alt="Descrição da Imagem" width="600">
 </p>
