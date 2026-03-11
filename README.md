@@ -11,10 +11,9 @@ This dataset is the first unified and standardized national database of point pr
   5.	**ICEA**: Institute of Air Space Control.
 
 The primary contribution of this work is overcoming the high fragmentation of rainfall data in Brazil through a rigorous curation process:
-
-<p>•	Structural and Nominal Standardization: Harmonization of column names, attributes, and storage formats, addressing historical changes in data protocols and formats within the same agency.
-<p>•	Time Zone Adjustment: Standardization of timestamps based on the station's geographical location (UTC offset).
-<p>•	Temporal Resolution: Records ranging from 10-minute intervals to 1-day resolution.
+<br>•	Structural and Nominal Standardization: Harmonization of column names, attributes, and storage formats, addressing historical changes in data protocols and formats within the same agency. 
+<br>•	Time Zone Adjustment: Standardization of timestamps based on the station's geographical location (UTC offset).
+<br>• Temporal Resolution: Records ranging from 10-minute intervals to 1-day resolution.
 
 
 **Data Quality Disclaimer**: The processing of this dataset is strictly focused on structural standardization. No qualitative assessment, physical consistency checks, or outlier filtering were performed. The rainfall values remain as originally reported by the agencies, now organized into a unified, analysis-ready structure.
@@ -88,7 +87,7 @@ Examples of scripts for accessing and filtering data, as well as generating plot
 
 Lemos, F. C., Freitas, E. S., Coelho, V. H. R., Reis Júnior, D. S., Patriota, E. G., Meira, M. A., Vidal-Barbosa, J. L., Claudino, C. M. A., Silva, G. S., Nascimento, D. C., Ramos Filho, G. M., Cunha, A. P. M. A., Alves, L. G. S., Zeri, L. M. M., Ribeiro Neto, G. G., Bertrand, G. F., Tomasella, J., Souza, S. A., Araújo, A. A., Rampinelle, C. G., & Almeida, C. N. (2026). Unified Brazilian Rainfall Dataset (UNIPLU-BR): A Standardized National Database of Point Precipitation from Major Brazilian Monitoring Networks [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18883358
 
-<p>
+<p></p>
 **Main papers published by the group**
 
 Das Neves Almeida, C., Francis Bertrand, G., Carvalho Lemos, F., da Silva Freitas, E., Lins Silva, A., Vidal Barbosa, J. L., ... & Coelho, V. H. R. (2025). The design of the Brazilian Sub-Daily Rainfall dataset (BR-SDR): two decades of high-time-resolution data in Brazil. Hydrological Sciences Journal, 70(11), 1850-1862. https://doi.org/10.1080/02626667.2025.2506193
