@@ -50,13 +50,14 @@ Within these files, the gauge_code (station code) serves as the primary key that
 *Rainfall gauge information (table_info)*
 This dataframe functions as the 'identity document' for the rain gauge stations. It contains the static characteristics of each monitoring point:
 
-Coluna,Descrição,Observações
-gauge_code,Identificador único da estação (ID),Chave primária para vinculação com a tabela de séries temporais (table_data).
-city / state,Localização administrativa,"Município e Unidade da Federação (ex: João Pessoa, PB)."
-lat / long,Coordenadas geográficas,Formato de graus decimais (WGS84).
-elevation,Altitude da estação,Valor em metros acima do nível médio do mar (m).
-time_step,Resolução temporal,Intervalo entre leituras (ex: 1440 minutos para dados diários).
-network,Rede/Fonte original,"Origem do dado (ex: Hidroweb, INMET, CEMADEN)."
-responsible,Agência responsável,"Órgão que opera a estação (ex: ANA, SGB-CPRM, INMET)."
-utc,Fuso horário,Diferença em relação ao Meridiano de Greenwich (GMT-3 para horário de Brasília).
+| COLUMN | DESCRIPTION |
+| :--- | :---: | 
+| **gauge_code** | Unique station identifier (ID). This serves as the link to table_data | 
+| **city / state** | The administrative location of the station (e.g. João Pessoa, PB) | 
+| **lat / long** | Geographic coordinates in decimal degrees | 
+| **elevation** | The station's altitude above mean sea level (meters) | 
+| **time_step** | Estimated temporal resolution of the data (1440 minutes = 24 hours/daily) |
+| **network** | Data network source (e.g. Hidroweb) |
+| **responsible** | The agency responsible for operations (ANA or SGB-CPRM) |
+| **utc** | Local time zone relative to the Greenwich Meridian (-3 for Brasília Time) |
 
