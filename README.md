@@ -4,16 +4,21 @@ Unified Brazilian Rainfall Dataset (UNIPLU-BR): A Standardized National Database
 Filipe Carvalho Lemos, Emerson da Silva Freitas, Victor Hugo Rabelo Coelho, Dirceu Silveira Reis Júnior, Eduardo Gonçalves Patriota, Marcela Antunes Meira, José Lindemberg Vidal-Barbosa, Cinthia Maria de Abreu Claudino, Gerald Souza da Silva, Daniel Conceição do Nascimento, Geraldo Moura Ramos Filho, Ana Paula Martins do Amaral Cunha, Luna Gripp Simões Alves, Luis Marcelo de Mattos Zeri, Germano Gondim Ribeiro Neto, Guillaume Francis Bertrand, Javier Tomasella, Saulo Aires de Souza, Alexandre Abdalla Araújo, Cássio Guilherme Rampinelle, Cristiano das Neves Almeida
 
 This dataset is the first unified and standardized national database of point precipitation (non-interpolated) in Brazil, consolidating raw data from five primary monitoring networks:
-  1.	CEMADEN: National Center for Monitoring and Early Warning of Natural Disasters.
-  2.	INMET: National Institute of Meteorology.
-  3.	ANA (Hidroweb): National Water and Sanitation Agency.
-  4.	Telemetria: Telemetry system for hydrological monitoring.
-  5.	ICEA: Institute of Air Space Control.
+  1.	**CEMADEN**: National Center for Monitoring and Early Warning of Natural Disasters.
+  2.	**INMET**: National Institute of Meteorology.
+  3.	**ANA (Hidroweb)**: National Water and Sanitation Agency.
+  4.	**Telemetria**: Telemetry system for hydrological monitoring.
+  5.	**ICEA**: Institute of Air Space Control.
 
 The primary contribution of this work is overcoming the high fragmentation of rainfall data in Brazil through a rigorous curation process:
+
 •	Structural and Nominal Standardization: Harmonization of column names, attributes, and storage formats, addressing historical changes in data protocols and formats within the same agency.
+
 •	Time Zone Adjustment: Standardization of timestamps based on the station's geographical location (UTC offset).
+
 •	Temporal Resolution: Records ranging from 10-minute intervals to 1-day resolution.
+
+
 Data Quality Disclaimer: The processing of this dataset is strictly focused on structural standardization. No qualitative assessment, physical consistency checks, or outlier filtering were performed. The rainfall values remain as originally reported by the agencies, now organized into a unified, analysis-ready structure.
 
 Data Quality Disclaimer: The processing of this dataset is strictly focused on structural standardization. No qualitative assessment, physical consistency checks, or outlier filtering were performed. The rainfall values remain as originally reported by the agencies, now organized into a unified, analysis-ready structure.
