@@ -42,13 +42,16 @@ The distribution of these records among the main Brazilian monitoring networks i
   <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem2.png?raw=true" alt="Temporal evolution of the number of available rainfall stations in Brazil from 1855 to 2025: (Top) stations with daily resolution; (Bottom) stations with sub-daily resolution." width="650">
 </p>
 
+
 **Accessing the Data**
 
 The data is stored in compressed ZIP files, which function as optimized containers. Each ZIP file internally contains two files in Parquet format: table_info.parquet (station metadata) and table_data.parquet (rainfall time series).
 The primary advantage of this structure is that, using Python or R, you can read the data directly from memory. This eliminates the need to manually decompress files to the disk, saving storage space and accelerating processing within automation workflows.
 Within these files, the gauge_code (station code) serves as the primary key that links the registration information to the measurement data.
 
+
 **Metadata**
+
 
 *Rainfall gauge information (table_info)*
 
@@ -65,6 +68,7 @@ This dataframe functions as the 'identity document' for the rain gauge stations.
 | **responsible** | The agency responsible for operations (ANA or SGB-CPRM) |
 | **utc** | Local time zone relative to the Greenwich Meridian (-3 for Brasília Time) |
 
+
 *Time Series (table_data)*
 
 Whilst table_info defines the location and identity of the station, table_data records the rainfall measurements. It contains the following columns:
@@ -75,14 +79,17 @@ Whilst table_info defines the location and identity of the station, table_data r
 | **datetime**	| The date and time of the reading | 
 | **rain_mm**	| The volume of precipitation recorded during that interval, measured in millimeters (mm) |
 
+
 *Script Examples*
 
 Examples of scripts for accessing and filtering data, as well as generating plots, can be found at the following link: https://github.com/LARHENA/UNIPLU-BR/blob/main/Scripts%20UNIPLU-BR.ipynb
 
 
+
 **How to Cite**
 
 Lemos, F. C., Freitas, E. S., Coelho, V. H. R., Reis Júnior, D. S., Patriota, E. G., Meira, M. A., Vidal-Barbosa, J. L., Claudino, C. M. A., Silva, G. S., Nascimento, D. C., Ramos Filho, G. M., Cunha, A. P. M. A., Alves, L. G. S., Zeri, L. M. M., Ribeiro Neto, G. G., Bertrand, G. F., Tomasella, J., Souza, S. A., Araújo, A. A., Rampinelle, C. G., & Almeida, C. N. (2026). Unified Brazilian Rainfall Dataset (UNIPLU-BR): A Standardized National Database of Point Precipitation from Major Brazilian Monitoring Networks [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18883358
+
 
 **Main papers published by the group**
 
