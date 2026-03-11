@@ -20,6 +20,7 @@ Data Quality Disclaimer: The processing of this dataset is strictly focused on s
 
 
 **Impressive numbers:**
+
 The dataset covers the period from 1885 to 2025, highlighted by the presence of stations with historical series exceeding a century. With broad national coverage, the database consolidates approximately 2.2 billion precipitation records from over 21,000 stations. This information features varied temporal resolutions, ranging from 10-minute intervals to 24-hour totals. 
 The distribution of these records among the main Brazilian monitoring networks is detailed below.
 
@@ -42,12 +43,15 @@ The distribution of these records among the main Brazilian monitoring networks i
 </p>
 
 **Accessing the Data**
+
 The data is stored in compressed ZIP files, which function as optimized containers. Each ZIP file internally contains two files in Parquet format: table_info.parquet (station metadata) and table_data.parquet (rainfall time series).
 The primary advantage of this structure is that, using Python or R, you can read the data directly from memory. This eliminates the need to manually decompress files to the disk, saving storage space and accelerating processing within automation workflows.
 Within these files, the gauge_code (station code) serves as the primary key that links the registration information to the measurement data.
 
-**Metadata** 
+**Metadata**
+
 *Rainfall gauge information (table_info)*
+
 This dataframe functions as the 'identity document' for the rain gauge stations. It contains the static characteristics of each monitoring point:
 
 | COLUMN | DESCRIPTION |
@@ -62,6 +66,7 @@ This dataframe functions as the 'identity document' for the rain gauge stations.
 | **utc** | Local time zone relative to the Greenwich Meridian (-3 for Brasília Time) |
 
 *Time Series (table_data)*
+
 Whilst table_info defines the location and identity of the station, table_data records the rainfall measurements. It contains the following columns:
 
 | COLUMN	| DESCRIPTION | 
@@ -71,6 +76,7 @@ Whilst table_info defines the location and identity of the station, table_data r
 | **rain_mm**	| The volume of precipitation recorded during that interval, measured in millimeters (mm) |
 
 *Script Examples*
+
 Examples of scripts for accessing and filtering data, as well as generating plots, can be found at the following link: https://github.com/LARHENA/UNIPLU-BR/blob/main/Scripts%20UNIPLU-BR.ipynb
 
 
