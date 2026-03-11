@@ -16,7 +16,12 @@ The primary contribution of this work is overcoming the high fragmentation of ra
 •	Temporal Resolution: Records ranging from 10-minute intervals to 1-day resolution.
 Data Quality Disclaimer: The processing of this dataset is strictly focused on structural standardization. No qualitative assessment, physical consistency checks, or outlier filtering were performed. The rainfall values remain as originally reported by the agencies, now organized into a unified, analysis-ready structure.
 
-For more information and details, read the document Brazilian Unified Rainfall Dataset.docx (https://github.com/LARHENA/UNIPLU-BR/blob/main/Brazilian%20Unified%20Rainfall%20Dataset.docx)
+Data Quality Disclaimer: The processing of this dataset is strictly focused on structural standardization. No qualitative assessment, physical consistency checks, or outlier filtering were performed. The rainfall values remain as originally reported by the agencies, now organized into a unified, analysis-ready structure.
+
+
+Impressive numbers:
+The dataset covers the period from 1885 to 2025, highlighted by the presence of stations with historical series exceeding a century. With broad national coverage, the database consolidates approximately 2.2 billion precipitation records from over 21,000 stations. This information features varied temporal resolutions, ranging from 10-minute intervals to 24-hour totals. 
+The distribution of these records among the main Brazilian monitoring networks is detailed below.
 
 
 ### Resumo das Fontes de Dados
