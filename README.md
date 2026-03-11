@@ -15,3 +15,6 @@ The primary contribution of this work is overcoming the high fragmentation of ra
 •	Time Zone Adjustment: Standardization of timestamps based on the station's geographical location (UTC offset).
 •	Temporal Resolution: Records ranging from 10-minute intervals to 1-day resolution.
 Data Quality Disclaimer: The processing of this dataset is strictly focused on structural standardization. No qualitative assessment, physical consistency checks, or outlier filtering were performed. The rainfall values remain as originally reported by the agencies, now organized into a unified, analysis-ready structure.
+
+For more information and details, read the document Brazilian Unified Rainfall Dataset.docx (https://github.com/LARHENA/UNIPLU-BR/blob/main/Brazilian%20Unified%20Rainfall%20Dataset.docx)
+
