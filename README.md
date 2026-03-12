@@ -47,9 +47,11 @@ The primary advantage of this structure is that, using Python or R, you can read
 Within these files, the gauge_code (station code) serves as the primary key that links the registration information to the measurement data.
 
 <br>
+
 **Metadata**
 
 <br>
+
 *Rainfall gauge information (table_info)*
 
 This dataframe functions as the 'identity document' for the rain gauge stations. It contains the static characteristics of each monitoring point:
@@ -66,6 +68,7 @@ This dataframe functions as the 'identity document' for the rain gauge stations.
 | **utc** | Local time zone relative to the Greenwich Meridian (-3 for Brasília Time) |
 
 <br>
+
 *Time Series (table_data)*
 
 Whilst table_info defines the location and identity of the station, table_data records the rainfall measurements. It contains the following columns:
@@ -77,12 +80,14 @@ Whilst table_info defines the location and identity of the station, table_data r
 | **rain_mm**	| The volume of precipitation recorded during that interval, measured in millimeters (mm) |
 
 <br>
+
 *Script Examples*
 
 Examples of scripts for accessing and filtering data, as well as generating plots, can be found at the following link: https://github.com/LARHENA/UNIPLU-BR/blob/main/Scripts%20UNIPLU-BR.ipynb
 
 
 <br>
+
 **How to Cite**
 
 Lemos, F. C., Freitas, E. S., Coelho, V. H. R., Reis Júnior, D. S., Patriota, E. G., Meira, M. A., Vidal-Barbosa, J. L., Claudino, C. M. A., Silva, G. S., Nascimento, D. C., Ramos Filho, G. M., Cunha, A. P. M. A., Alves, L. G. S., Zeri, L. M. M., Ribeiro Neto, G. G., Bertrand, G. F., Tomasella, J., Souza, S. A., Araújo, A. A., Rampinelle, C. G., & Almeida, C. N. (2026). Unified Brazilian Rainfall Dataset (UNIPLU-BR): A Standardized National Database of Point Precipitation from Major Brazilian Monitoring Networks [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18883358
