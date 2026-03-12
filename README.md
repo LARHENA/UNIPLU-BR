@@ -47,7 +47,6 @@ Within these files, the gauge_code (station code) serves as the primary key that
 <br>
 
 **Metadata**
-
 <br>
 
 *Rainfall gauge information **(table_info)***
