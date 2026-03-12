@@ -1,8 +1,6 @@
 # UNIPLU-BR
 Unified Brazilian Rainfall Dataset (UNIPLU-BR): A Standardized National Database of Point Precipitation from Major Brazilian Monitoring Networks (1885 – 2025)
 
-Filipe Carvalho Lemos, Emerson da Silva Freitas, Victor Hugo Rabelo Coelho, Dirceu Silveira Reis Júnior, Eduardo Gonçalves Patriota, Marcela Antunes Meira, José Lindemberg Vidal-Barbosa, Cinthia Maria de Abreu Claudino, Gerald Souza da Silva, Daniel Conceição do Nascimento, Geraldo Moura Ramos Filho, Ana Paula Martins do Amaral Cunha, Luna Gripp Simões Alves, Luis Marcelo de Mattos Zeri, Germano Gondim Ribeiro Neto, Guillaume Francis Bertrand, Javier Tomasella, Saulo Aires de Souza, Alexandre Abdalla Araújo, Cássio Guilherme Rampinelli, Cristiano das Neves Almeida
-
 This dataset is the first unified and standardized national database of point precipitation (non-interpolated) in Brazil, consolidating raw data from five primary monitoring networks:
   1.	**CEMADEN**: National Center for Monitoring and Early Warning of Natural Disasters.
   2.	**INMET**: National Institute of Meteorology.
@@ -21,7 +19,7 @@ The primary contribution of this work is overcoming the high fragmentation of ra
 
 #### Impressive numbers:
 
-The dataset covers the period from 1885 to 2025, highlighted by the presence of stations with historical series exceeding a century. With broad national coverage, the database consolidates approximately 2.2 billion precipitation records from over 21,000 stations. This information features varied temporal resolutions, ranging from 10-minute intervals to 24-hour totals. 
+The dataset covers the period from **1885 to 2025**, highlighted by the presence of stations with historical series exceeding a century. With broad national coverage, the database consolidates approximately **2.2 billion precipitation records** from over **21,000 stations**. This information features varied temporal resolutions, ranging from 10-minute intervals to 24-hour totals. 
 The distribution of these records among the main Brazilian monitoring networks is detailed below.
 
 | Source | Potential average number of years | Quantity | Initial and Final Year |
@@ -52,7 +50,7 @@ Within these files, the gauge_code (station code) serves as the primary key that
 
 <br>
 
-*Rainfall gauge information (table_info)*
+*Rainfall gauge information **(table_info)***
 
 This dataframe functions as the 'identity document' for the rain gauge stations. It contains the static characteristics of each monitoring point:
 
@@ -69,7 +67,7 @@ This dataframe functions as the 'identity document' for the rain gauge stations.
 
 <br>
 
-*Time Series (table_data)*
+*Time Series **(table_data)***
 
 Whilst table_info defines the location and identity of the station, table_data records the rainfall measurements. It contains the following columns:
 
