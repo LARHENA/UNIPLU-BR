@@ -25,12 +25,12 @@ The distribution of these records among the main Brazilian monitoring networks i
 | Source | Potential average number of years | Quantity | Initial and Final Year |
 | :--- | :---: | :---: | :---: |
 | CEMADEN | 7,99 | 5.061 | 2014 - 2025 |
-| Hidroweb | 32,38 | 12.087 | 1885 - 2025 |
+| Hidroweb | 32,38 | 12.076 | 1885 - 2025 |
 | ICEA | 33,19 | 183 | 1951 - 2025 |
 | INMET daily | 45,03 | 627 | 1889 - 2025 |
 | INMET sub-daily | 15,87 | 629 | 2000 - 2025 |
 | Telemetria | 6,63 | 2.819 | 2014 - 2025 |
-| **Total** | **—** | **21.406** | **—** |
+| **Total** | **—** | **21.386** | **—** |
 
 <p align="left">
   <img src="https://github.com/LARHENA/UNIPLU-BR/blob/main/img/Imagem1.png?raw=true" alt="Spatial distribution of the rainfall gauge stations in Brazil across different data sources" width="650">
